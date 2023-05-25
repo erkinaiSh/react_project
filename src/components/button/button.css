@@ -1,0 +1,48 @@
+span {
+  color: rgb(9, 11, 12);
+  padding-left: 30px;
+}
+
+button {
+  width: 780px;
+  margin-left: 400px;
+  background-color: rgb(170, 186, 179);
+  margin-top: 10px;
+  padding: 18px;
+  border-style: none;
+  text-decoration: wavy;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+/* Responsive Styles for Mobile Phones */
+@media (max-width: 480px) {
+  span {
+    /* Adjust padding for smaller screens */
+    padding-left: 10px;
+  }
+
+  button {
+    width: 100%; /* Full width for smaller screens */
+    margin-left: 0;
+  }
+
+  div {
+    /* Adjust flex-direction for smaller screens */
+    flex-direction: column-reverse;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+}
